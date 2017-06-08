@@ -1,4 +1,17 @@
-console.log("Hello, kus");
-rts.printMsg = function() {
-    console.log("This is a message from the kush package");
+var extraInformation;
+
+function helloWorld() {
+    return "hello, world";
+};
+
+function helloPerson(name) {
+    return `Hello ${name}, ${extraInformation}`;
 }
+
+module.exports = function(info) {
+    extraInformation = info;
+    return {
+        helloWorld: helloWorld,
+        helloPerson: helloPerson
+    };
+};
