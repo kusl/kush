@@ -1,6 +1,6 @@
 {
   "name": "kush",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a new hope, now with yarn",
   "main": "index.js",
   "scripts": {
