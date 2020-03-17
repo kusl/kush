@@ -1,6 +1,7 @@
-var extraInformation;
+const extraInformation = `tomato`;
 
 function helloWorld() {
+    console.log(`hi`);
     return "hello, world";
 };
 
@@ -15,3 +16,5 @@ module.exports = function(info) {
         helloPerson: helloPerson
     };
 };
+
+console.log(helloPerson(`potato`));
