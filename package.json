@@ -1,7 +1,7 @@
 {
   "name": "kush",
-  "version": "1.0.3",
-  "description": "a new hope",
+  "version": "1.0.4",
+  "description": "a new hope, now with yarn",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
