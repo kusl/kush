@@ -3,3 +3,4 @@ node_modules/*
 !.yarn/releases
 !.yarn/plugins
 .pnp.*
+package-lock.json
